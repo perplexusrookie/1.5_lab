@@ -26,4 +26,24 @@ public class WhileLoops{
         while(current < 100){
             System.out.println(current+" ");
             int sum = current + next;
-            current = nex
+            current = next;
+            next = sum;
+
+        }
+            System.out.println();
+            System.out.println("Stopped at "+ current);
+    }
+
+    public void printUsername(){
+        String username = "Hi";
+
+        while (username.length() < 6){
+            username += "_";
+            System.out.println("Trying "+username);
+        }
+
+        System.out.println("Accepted "+username);
+    }
+
+    
+}

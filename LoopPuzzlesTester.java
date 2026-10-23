@@ -37,6 +37,7 @@ public class LoopPuzzlesTester {
 
         System.out.println("countDigits(23): ["+puzzles.countDigits(23)+"]");
         System.out.println("countDigits(-1): ["+puzzles.countDigits(-1)+"]");
+        
         System.out.println("startWithMostSteps(42): ["+puzzles.startWithMostSteps(42)+"]");
         System.out.println("startWithMostSteps(-3): ["+puzzles.startWithMostSteps(-3)+"]");
     }

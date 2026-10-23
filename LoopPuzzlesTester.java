@@ -35,6 +35,7 @@ public class LoopPuzzlesTester {
         System.out.println("readUntilSentinel(\"a,b,yay,c\", \"yay\"): ["
                 + puzzles.readUntilSentinel("a,b,yay,c", "yay") + "]");
 
+
         System.out.println("countDigits(23): ["+puzzles.countDigits(23)+"]");
         System.out.println("countDigits(-1): ["+puzzles.countDigits(-1)+"]");
         

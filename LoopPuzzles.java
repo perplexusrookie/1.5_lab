@@ -2,6 +2,9 @@ public class LoopPuzzles {
 
     // Read REQ 02
     public int stepsToOne(int start) {
+        if (start <= 0){
+            return 0;
+        }
         int value = start;
         int times = 0;
         while (value > 1){
